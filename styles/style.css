@@ -218,3 +218,22 @@ font-weight: 700;
     border-radius: 8px;
 }
     
+/* option-section styles */
+.optional-section{
+    display: flex;
+    height: 200px;
+    background-image: url('../assets/quote-bg.png');
+    background-repeat: no-repeat;
+    align-items: center;
+    margin-top: 40px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    
+        
+}
+.opt-parent{
+   display: flex;
+   flex-direction: column ;
+   gap: 20px;
+    
+}
