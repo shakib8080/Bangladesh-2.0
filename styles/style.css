@@ -440,6 +440,9 @@ font-weight: 700;
    text-align: center;
    justify-content: center;
 }
+.donet-child:hover{
+    background-color:rgb(198, 228, 214) ;
+}
 
 .different-donet-child{
     width: 240px;
