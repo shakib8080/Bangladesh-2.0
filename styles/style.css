@@ -292,3 +292,44 @@ font-weight: 700;
     color: white;
 }
 
+/* another recent slide styles */
+.recent-parent-2{
+    margin-top:40px;
+    display: flex;
+    align-items: center;
+    border-radius: 24px;
+    background-color: rgba(210, 204, 204, 0.849);
+    gap: 30px;
+    padding: 20px;
+}
+.recent-child-1-1 img{
+    border-radius:15px;
+
+    
+}
+.recent-child-1-1 {
+margin-top: 15px;
+}
+
+.recent-child-2-2 h1{
+    font-size: 40px;
+font-weight: 700;
+}
+
+.recent-child-2-2 p{
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.recent-child-2-2 button{
+  
+    background-color:rgb(0, 106, 80);  
+    text-decoration: none;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+.ankor{
+    text-decoration: none; 
+    color: white;
+}
