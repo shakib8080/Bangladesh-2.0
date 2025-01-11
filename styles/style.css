@@ -22,6 +22,12 @@
     color: rgb(0, 106, 80);
 }
 
+.navbar button:hover{
+    color: rgb(8, 0, 255);
+    background-color: rgb(76, 182, 182);
+
+}
+
 /* slide-section-styles */
 
 .slide-section{
@@ -56,6 +62,9 @@ font-weight: 700;
     height: 56px;
     justify-items: start;
     margin-left: 20px;
+}
+.slide-child-1 button:hover{
+    background-color: rgb(146, 184, 109);
 }
 
 /* section-pillars-styles */
@@ -183,6 +192,10 @@ font-weight: 700;
     background-color: rgb(84, 144, 245);
     border-radius: 8px;
     border-radius: 8px;
+    color: azure;
+}
+.vision-child-1 button:hover{
+    background-color: rgba(129, 218, 40, 0.69);
 }
 .vision-child-2 h2{
 
@@ -199,6 +212,10 @@ font-weight: 700;
     background-color:rgb(9, 161, 92);
     border-radius: 8px;
     border-radius: 8px;
+    color: azure;
+}
+.vision-child-2 button:hover{
+    background-color: rgba(197, 46, 166, 0.517);
 }
 
 .vision-child-3 h2{
@@ -216,6 +233,10 @@ font-weight: 700;
     background-color:rgb(255, 194, 57);
     border-radius: 8px;
     border-radius: 8px;
+    color: azure;
+}
+.vision-child-3 button:hover{
+    background-color: rgb(167, 108, 18)
 }
     
 /* option-section styles */
@@ -237,6 +258,51 @@ font-weight: 700;
    gap: 20px;
     
 }
+
+
+/* openion section styles */
+
+.tbody td,th {
+    border: 2px solid black;
+    padding: 20px;
+    font-size: 25px;
+   }
+   table{
+       margin-top: 35px;
+       border-collapse: collapse;
+       align-items: center;
+   }
+   .openion-parent{
+       background-color: rgb(114, 237, 237);
+       width: 1280px;
+       height: 409px;
+       border-radius: 20px;
+       margin-top: 60px;
+   }
+   .openion-section h1{
+       font-size: 50px;
+       font-weight: 800;
+       margin-top: 30px;
+       text-align: start;
+   }
+   .openion-section{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+   }
+   
+   .select{
+       width: 160px;
+      height:50px;
+      background-color: burlywood;
+      border-radius: 5px;
+      text-align: center;
+   }
+   
+   .tr-th{
+       background-color:burlywood ;
+   }
 
 /* recent news styles */
 .recent-news-section{
@@ -287,6 +353,9 @@ font-weight: 700;
     margin-top: 20px;
     border-radius: 8px;
 }
+.recent-child-2 button:hover{
+    background-color: rgb(219, 177, 24);
+}
 .ankor{
     text-decoration: none; 
     color: white;
@@ -328,6 +397,9 @@ font-weight: 700;
     padding: 15px;
     margin-top: 20px;
     border-radius: 8px;
+}
+.recent-child-2-2 button:hover{
+    background-color: rgba(219, 161, 90, 0.725);
 }
 .ankor{
     text-decoration: none; 
@@ -396,6 +468,10 @@ font-weight: 700;
    border: 2px solid gray;
    margin-top: 10px;
 }
+.text:hover{
+    color: green;
+    
+}
 
 .button-div{
     width: fit-content;
@@ -410,6 +486,9 @@ font-weight: 700;
     border: 1px solid rgba(14, 14, 14, 0.1);
     border-radius: 8px;
     text-decoration: none;
+}
+.button:hover{
+    background-color:rgb(186, 164, 77) ;
 }
 .button a{
     text-decoration: none;
@@ -452,6 +531,7 @@ font-weight: 700;
    justify-content: center;
 }
 
+
 .input-f{
     width: 600px;
     height: 54px;
@@ -461,6 +541,9 @@ font-weight: 700;
     margin:0px;
 
     border: none;
+}
+.input-f:hover{
+    color: rgb(54, 93, 16);
 }
 .button-f{
     
@@ -474,6 +557,10 @@ font-weight: 700;
    
    padding-left: 10px;
 
+}
+.button-f:hover{
+    background-color: red;
+    color: white;
 }
 
 .footer{
@@ -491,3 +578,6 @@ footer h1{
     justify-content: center;
     margin-top: 50px;
 }
+
+
+
